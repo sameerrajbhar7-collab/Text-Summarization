@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and large files
+saved_summary_model/
+*.safetensors
+*.bin
+*.h5
+*.pt
+*.onnx
+
+# OS generated files
+.DS_Store
+Thumbs.db
