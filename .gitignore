@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 # Models and large files
-saved_summary_model/
-*.safetensors
+# saved_summary_model/ is no longer ignored because we want to push its files (like model.safetensors via LFS)
 *.bin
 *.h5
 *.pt
